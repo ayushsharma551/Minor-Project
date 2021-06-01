@@ -14,5 +14,19 @@
 
 .post {
   white-space: pre-wrap;
-  background-color: rgb(172, 187, 255);
+  background-color: #f2f2f2;
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+body{
+  background-color: #dcdcfa;
+  background: url("brett-jordan-s15SpJwIScw-unsplash.jpg");
+}
+
+.card{
+  background-color: #e6e6e6;
+}
+
+.navbar-bg-light{
+  background-color: #bebebe;
 }
