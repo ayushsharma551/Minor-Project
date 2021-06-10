@@ -159,6 +159,9 @@ header{
        
     
 }
+.se{
+    background: url("austrian-national-library-ciMJn3mD5u8-unsplash.jpg");
+}
 
 
 
@@ -180,9 +183,7 @@ header{
     border-top: none;
 
 }
-.watch{
-    border-bottom: none;
-}
+
 /*end*/
 
 @media screen and (max-width: 1068px){
@@ -197,7 +198,9 @@ header{
     .watch{
         background: url("brett-jordan-s15SpJwIScw-unsplash.jpg");
     }
-
+    .se{
+        background: url("austrian-national-library-ciMJn3mD5u8-unsplash.jpg");
+    }
     .hero{
         height: 65rem;
         background-size: auto 69.8rem;
@@ -398,6 +401,9 @@ header{
         background-repeat: no repeat;
 
 
+    }
+    .se{
+        background: url("austrian-national-library-ciMJn3mD5u8-unsplash.jpg");
     }
 
     .title{
