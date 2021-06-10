@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HNews+</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body style="background-color: #242424;">
+
+<div class="jumbotron " style="padding: 1rem 2rem; background-color: #0e0e0e;" >
+
+    
+    <a href="http://127.0.0.1:8000/"> <h2><b style="color: rgb(201, 0, 0)";>H</b><b style="color: rgb(228, 228, 228);">News</b><b style="color: rgb(184, 2, 2)";>+</b></h2></a>
+    
+</div>
+<div class="jumbotron" style="background-color: #8b0000; color: #bababa;">
+    <h1 class="display-4" style="color: #d3d3d3;"><b> <b>AUTHENTIC ARTICLES</b> </b></h1>
+    <p class="lead">Bringing to you the best and the most authentic articles relating to COVID-19.</p>
+    <hr class="my-4">
+    <p>Comprising articles from BBC, The verge and many more authentic websites.</p>
+    
+  </div>
+
+<div class="container" style="background-color:#ffffff;">
+    {% for new, des, i, ur in mylist %}
+    <img src="{{i}}" alt="" width="1110" height="600" style="border: 5px solid #555;">
+    <h4>News</h4> {{new}}
+    {{value | linebreaks}}
+
+    <h4>Description</h4>  {{des}}
+    {{value | linebreaks}}
+    <h4>Source </h4><a href="{{ur}}">click here</a>
+    {{value| linebreaks}}
+
+    {% endfor %}
+
+
+</div>
+</body>
+</html>
